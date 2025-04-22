@@ -1,0 +1,301 @@
+body{
+    background-image: url(list.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    border: 2px solid;
+    margin: 0px;
+
+    font-family: "consolas";
+    font-size: 2em;
+}
+
+p{
+    color: black;
+    font-family: "cambria", "sans-serif";
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    font-size: 8em;
+    text-align: center;
+    background: tomato;
+    border-radius: 15px;
+
+    float: left;
+
+    font-family: "gotham rounded", "consolas", "sans-serif";
+    font-style: italic; 
+    font-weight: bold;
+
+}
+
+#box1{
+    border: 5px solid;
+    width: 1500px;
+    height: 200px;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background: aquamarine;
+
+    padding: 50px;
+    margin: 50px;
+
+}
+
+#box2{
+    border: 5px solid;
+    width: 1500px;
+    height: 200px;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background: aqua;
+
+    padding: 50px;
+    margin: 50px;
+
+}
+
+#box3{
+    border: 5px solid;
+    width: 150px;
+    height: 150px;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background: aquamarine;
+}
+
+#box4{
+    border: 5px solid;
+    width: 150px;
+    height: 150px;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background: aqua;
+
+}
+
+#box5{
+    border: 5px solid;
+    width: 150px;
+    height: 150px;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    background: rgb(141, 185, 185);
+
+}
+
+h1{
+    text-align: center;
+    color:purple;
+    background:linear-gradient(to left, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "gotham rounded", "consolas", "sans-serif";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+
+    }
+h2{
+    color:black;
+    background:linear-gradient(to left, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "consolas", "serif";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+
+}
+
+h3{
+    color:purple;
+    background:linear-gradient(tto left, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "gotham rounded", "Times New Roman", "Times", "serif";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+
+}
+
+h4{
+    color:purple;
+    background:linear-gradient(to right, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Times New Roman", "Times", "serif";
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+
+}
+
+
+.odd{
+    color: black;
+    background:linear-gradient(to left, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "gotham rounded", "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#pre2{
+    background-color:whitesmoke; color:blue; border: 2px solid;
+    font-family: "gotham rounded", "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.even{
+    color:greenyellow;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#pre4{
+    background-color:whitesmoke; color:maroon; border: 2px solid;
+    font-family: "gotham rounded", "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: purple dotted underline;
+    font-size: 18px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar ul{
+list-style-type: none;
+background-color: rgb(61, 59, 59);
+padding: 10px;
+margin: 10px;
+overflow: hidden;
+
+}
+
+.navbar a{
+color: antiquewhite;
+text-decoration: none;
+padding: 15 px;
+display: block;
+text-align: center;
+margin-right: 20px;
+font-family: "gotham rounded", "consolas", "sans-serif";
+}
+
+.navbar a:hover{
+    background-color: rgb(67, 66, 68);
+}
+
+.navbar li{
+    float: left;
+}
+
+
+@media (max-width: 1231px) {
+    .header__title {
+        font-size: 1.5rem;
+    }
+    .header__link,
+    .header__btn {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 925px) {
+    .header {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__title-container,
+    .header__menu,
+    .header_btn-container {
+        flex: 0 1 auto;
+    }
+    .header__title {
+        font-size: 1.3rem;
+    }
+    .header__menu,
+    .header_btn-container{
+        display: none;
+    }
+    .header__sun {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__title {
+        font-size: 1rem;
+    }
+    .header__sun {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+}
